@@ -1,0 +1,137 @@
+span{
+    color: rgb(0, 0, 0); background-color: rgba(0, 0, 0, 0);
+}
+a{
+    color: white;background-color: black;
+}
+form{
+     color: white; background-color: black;
+}
+h1{
+    color: rgb(255, 255, 255); background-color: rgba(0, 0, 0, 0);
+}
+body{
+    color: white; background-color: rgb(18, 104, 131);
+    background-image: url;
+    display: flow-root;
+    margin: 0px;
+ }
+main{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+header{
+    color: rgb(0, 0, 0); background-color: rgba(0, 0, 0, 0);
+}
+button:{
+color: rgb(0, 0, 0); background-color: rgba(0, 0, 0, 0);
+}
+ul{
+    margin: 0px;
+}
+#img1{
+    float: left;
+    margin-right: 10px;
+}
+#img2{
+    float: right;
+    margin-left: 10px;
+}
+.box{
+    border: 2px solid;
+    height: auto;
+    width: auto;
+}
+li.hover{
+    background-color: grey;
+}
+.h3.hover{
+    background-color: grey;
+}
+h5{
+    text-align: center;
+}
+.navbar ul{
+    list-style-type: none;
+    background-color: grey;
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+}
+.navbar a{
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center
+    
+}
+.navbar a:hover{
+    background-color: rgb(65, 65, 65);
+}
+.navbar li{
+    float: left;
+}
+.gallery{
+    display: inline-block;
+    border: hsl(0, 0%, 60%);
+    margin: 5px;
+}
+.gallery .descriptio{
+    padding: 10px;
+    text-align: center;
+}
+.gallery:hover{
+    border: 1px hsl(0, 0%, 20);
+}
+.gallery img{
+    width: auto;
+    height: 20%;
+}
+.icons{
+    text-align: center;
+}
+.fa-brands.fa-instagram.fa-2xl{
+    color: rgb(176, 33, 124);
+}
+#box{
+    width: 100px;
+    height: 100px;
+    background-color: red ;
+    font-size: 13em;
+    text-align: center;
+    
+}
+.img{
+
+    animation-name: slideLeft;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-duration: alternate-reverse;
+    animation-play-state: running;
+    animation-timing-function: ease-in-out;
+}
+@keyframes slideLeft{
+    from{transform: translateX(100%);}
+}
+@keyframes slideUp{
+    To{transform: translateX(100%);}
+}
+@keyframes slideRight{
+    from{transform: translateY(100%);}
+}
+@keyframes slideDown{
+    to{transform: translateY(100%);}
+}
+@keyframes rotate{
+    100%{transform: rotateZ(360deg);}
+}
+@keyframes grow{
+    100% {transform: scale(2, 2);}
+}
+@keyframes shrink{
+    50%{transform: scale(0.5, 0.5);}
+}
+@keyframes fade{
+    50%{opacity: 0;}
+}
